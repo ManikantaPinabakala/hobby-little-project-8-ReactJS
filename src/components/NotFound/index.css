@@ -1,0 +1,27 @@
+.not-found-outer-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.not-found-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-image {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.not-found-headline {
+  color: #475569;
+  margin-bottom: 15px;
+}
+
+.not-found-description {
+  color: #64748b;
+}

@@ -1,0 +1,92 @@
+.home-container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-content-container {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  margin: 0;
+}
+
+.courses-heading {
+  color: #1e293b;
+}
+
+.course-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.course-list-item {
+  width: 16%;
+}
+
+.link-element {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  text-decoration: none;
+}
+
+.course-logo {
+  width: 70px;
+  height: 70px;
+}
+
+.course-name {
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.loader-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.failure-headline-text {
+  color: #475569;
+  margin-bottom: 10px;
+}
+
+.failure-description {
+  color: #64748b;
+}
+
+.retry-button {
+  background-color: #4656a1;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
